@@ -1,6 +1,5 @@
 #include <pebble.h>
-
-#include "generic_bitmap_layer.h"
+#include "generic_bitmap_layer/generic_bitmap_layer.h"
 
 static Window *window;
 static GenericBitmapLayer *generic_layer;

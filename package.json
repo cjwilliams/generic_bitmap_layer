@@ -1,0 +1,13 @@
+{
+  "name": "generic_bitmap_layer",
+  "author": "Gregoire Sage",
+  "version": "1.0",
+  "dependencies": {},
+  "pebble": {
+    "sdkVersion": "3",
+    "targetPlatforms": ["aplite", "basalt", "chalk"],
+    "watchapp": {
+      "watchface": false
+    }
+  }
+}

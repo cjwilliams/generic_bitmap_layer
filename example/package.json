@@ -1,0 +1,46 @@
+{
+  "name": "example-app",
+  "author": "Gregoire Sage",
+  "version": "1.0.0",
+  "dependencies": {
+    "generic_bitmap_layer": "1.0.0"
+  },
+
+  "pebble": {
+    "uuid": "c3ae870a-0ada-4a8b-8725-71fe5ccaf8f3",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "PNG",
+          "file": "globe.png"
+        },
+        {
+          "type": "raw",
+          "name": "APNG",
+          "file": "rings.png"
+        },
+        {
+          "type": "raw",
+          "name": "PDCS",
+          "file": "charging_sequence.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "PDCI",
+          "file": "image.pdc"
+        }
+      ]
+    }
+  }
+}
