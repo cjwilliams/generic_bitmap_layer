@@ -2,12 +2,11 @@
   "name": "generic_bitmap_layer",
   "author": "Gregoire Sage",
   "version": "1.0",
+  "files": ["dist.zip"],
+  "keywords": ["pebble-package"],
   "dependencies": {},
   "pebble": {
     "sdkVersion": "3",
-    "targetPlatforms": ["aplite", "basalt", "chalk"],
-    "watchapp": {
-      "watchface": false
-    }
+    "targetPlatforms": ["aplite", "basalt", "chalk"]
   }
 }
